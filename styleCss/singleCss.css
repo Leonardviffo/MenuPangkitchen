@@ -1,0 +1,123 @@
+body {
+    background-color: #D2E3C8;
+    font-family: 'PT Serif', serif;
+}
+
+.kategori-mentai {
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card {
+    text-align: center;
+    cursor: pointer;
+    height: 290px;
+    width: 290px;
+    border: 1px black solid;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .2);
+    transition: all .3s ease;
+}
+
+.card-body.family h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: -5px;
+}
+
+.card-body.family p {
+    margin-bottom:30px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .judul {
+        margin-bottom: -50px;
+    }
+    
+    .kategori-mentai {
+        text-align: center;
+        display: block;
+        width: 340px;
+    }
+
+    .card {
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .judul {
+        margin-bottom: 30px;
+    }
+    
+    .kategori-mentai {
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 1399.98px) {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .judul {
+        margin-bottom: 30px;
+    }
+    
+    .kategori-mentai {
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+    }
+
+}
